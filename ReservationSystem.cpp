@@ -11,6 +11,53 @@
 
 using namespace std;
 
+//管理员菜单
+void managerMenu(Identity*& manager)
+{
+	while (true)
+	{
+		//管理员菜单
+		manager->operMenu();//多态，父类对象调用子类接口，重写的纯虚函数
+
+		//将父类指针强转成子类指针，调用子类里其他接口
+		Manager* man = (Manager*)manager;
+		//Manager man = manager;
+		int select = 0;
+
+		cin >> select;
+
+		if (select == 1)  //添加账号
+		{
+			cout << "添加账号" << endl;
+			man->addPerson();
+		}
+		else if (select == 2) //查看账号
+		{
+			cout << "查看账号" << endl;
+			man->showPerson();
+		}
+		else if (select == 3) //查看机房
+		{
+			cout << "查看机房" << endl;
+			man->showComputer();
+		}
+		else if (select == 4) //清空预约
+		{
+			cout << "清空预约" << endl;
+			man->cleanFile();
+		}
+		else
+		{
+			delete manager;
+			cout << "注销成功" << endl;
+			system("pause");
+			system("cls");
+			return;
+		}
+	}
+}
+
+
 //登录功能
 void LoginIn(string fileName, int type)
 {
@@ -66,6 +113,7 @@ void LoginIn(string fileName, int type)
 				person = new Student(id, name, pwd);
 
 				//进入学生身份子菜单
+				
 				return;
 			}
 		}
@@ -101,8 +149,11 @@ void LoginIn(string fileName, int type)
 				//登录成功后，按任意键进入管理员界面
 				system("pause");
 				system("cls");
+				
 				//创建管理员对象
 				person = new Manager(name, pwd);
+				managerMenu(person);
+
 				return;
 			}
 		}
