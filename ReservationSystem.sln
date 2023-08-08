@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReservationSystem", "ReservationSystem.vcxproj", "{B6DD4D58-945F-4306-918C-867B8C82FB3C}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Re-System", "..\Re-System\Re-System.vdproj", "{DDE93977-3575-4DF8-AF59-675F3EE2A1C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{B6DD4D58-945F-4306-918C-867B8C82FB3C}.Release|x64.Build.0 = Release|x64
 		{B6DD4D58-945F-4306-918C-867B8C82FB3C}.Release|x86.ActiveCfg = Release|Win32
 		{B6DD4D58-945F-4306-918C-867B8C82FB3C}.Release|x86.Build.0 = Release|Win32
+		{DDE93977-3575-4DF8-AF59-675F3EE2A1C4}.Debug|x64.ActiveCfg = Debug
+		{DDE93977-3575-4DF8-AF59-675F3EE2A1C4}.Debug|x86.ActiveCfg = Debug
+		{DDE93977-3575-4DF8-AF59-675F3EE2A1C4}.Release|x64.ActiveCfg = Release
+		{DDE93977-3575-4DF8-AF59-675F3EE2A1C4}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

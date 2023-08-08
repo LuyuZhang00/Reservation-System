@@ -1,4 +1,15 @@
-﻿  main.cpp
+﻿  Identity.h
+  manager.cpp
+  orderFile.cpp
+E:\temporary\cpp\ReservationSystem\orderFile.cpp(34,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\temporary\cpp\ReservationSystem\orderFile.cpp(42,22): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\temporary\cpp\ReservationSystem\orderFile.cpp(50,19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\temporary\cpp\ReservationSystem\orderFile.cpp(58,21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\temporary\cpp\ReservationSystem\orderFile.cpp(66,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\temporary\cpp\ReservationSystem\orderFile.cpp(74,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+  student.cpp
   subMenu.cpp
+  teacher.cpp
   正在生成代码...
   ReservationSystem.vcxproj -> E:\temporary\cpp\ReservationSystem\x64\Debug\ReservationSystem.exe
