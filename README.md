@@ -21,27 +21,6 @@ User:
 ![4](imgs/4.png)
 -----------------
 
-## 3. File Structure
-```
-Reservation-System
-©À©¤ src
-©¦  ©À©¤ main.cpp             // main function
-©¦  ©À©¤ subMenu.cpp          // sub menu function
-©¦  ©À©¤ manager.cpp
-©¦  ©À©¤ student.cpp
-©¦  ©À©¤ teacher.cpp
-©¦  ©¸©¤ orderFile.cpp
-©¦
-©À©¤include
-|   |©¤ subMenu.h
-©¦   ©À©¤ manager.h
-©¦   ©À©¤ student.h
-©¦   ©À©¤ teacher.h
-©¦   ©À©¤ globalFile.h
-©¦   ©À©¤ computerRoom.h
-©¦   ©À©¤ Identity.h
-©¦   ©¸©¤ orderFile.h
-©¦
-©À©¤ README.md
-©¸©¤ imgs
-```
+## 3. Install
+In the file `Download` you can choose  `Re-System.msi` or `setup.exe` to install this application
+
