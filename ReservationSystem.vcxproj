@@ -130,8 +130,9 @@
     <ClCompile Include="Identity.h" />
     <ClCompile Include="manager.cpp" />
     <ClCompile Include="orderFile.cpp" />
-    <ClCompile Include="ReservationSystem.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="student.cpp" />
+    <ClCompile Include="subMenu.cpp" />
     <ClCompile Include="teacher.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -140,7 +141,18 @@
     <ClInclude Include="manager.h" />
     <ClInclude Include="orderFile.h" />
     <ClInclude Include="student.h" />
+    <ClInclude Include="subMenu.h" />
     <ClInclude Include="teacher.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="admin.txt" />
+    <Text Include="computerRoom.txt" />
+    <Text Include="order.txt" />
+    <Text Include="student.txt" />
+    <Text Include="teacher.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
